@@ -1,6 +1,6 @@
 #!/bin/zsh
 function wifiCheck {
-	ping -t 1 google.com
+	ping -t 1 8.8.8.8
 	pingReturn=$?
 	if [ $pingReturn -eq 0 ]
 	then
