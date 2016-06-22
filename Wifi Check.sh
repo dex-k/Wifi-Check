@@ -10,7 +10,7 @@ function wifiCheck {
 		networksetup -setairportpower en0 off
 		sleep 1s
 		networksetup -setairportpower en0 on
-		sleep 5s
+		sleep 10s
 		wifiCheck
 	fi	
 }
